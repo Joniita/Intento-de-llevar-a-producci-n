@@ -1,5 +1,5 @@
 import express from "express";
-import { PORT } from "../client/config.js";
+import { PORT } from "./config.js";
 import { createServer } from "http";
 import { Server } from "socket.io";
 
